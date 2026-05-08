@@ -1,0 +1,34 @@
+# Internal planning / Codex maintenance
+FUTURE_IMPROVEMENTS.md
+.git-meta/
+.git/
+
+# Build/package outputs
+dist/
+packages/
+release/
+*.rmskin
+*.zip
+
+# Runtime/cache/test artifacts
+*.log
+*.tmp
+*.bak
+*.old
+cache/
+runtime/
+tmp/
+temp/
+
+# Local Rainmeter/generated state
+Rainmeter.ini
+@Resources/*.inc.generated
+@Resources/*Cache*.inc
+Skins/**/@Resources/*Cache*.inc
+
+# OS/editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
