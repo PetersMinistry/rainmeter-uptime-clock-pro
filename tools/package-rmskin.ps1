@@ -7,25 +7,27 @@ $ErrorActionPreference = 'Stop'
 
 $projectRoot = Resolve-Path (Join-Path $PSScriptRoot '..')
 $dist = Join-Path $projectRoot 'dist'
-$rmskinIni = Join-Path $projectRoot 'RMSKIN.ini'
 $userSettings = Join-Path $projectRoot 'Skins\UptimeClockPro\@Resources\UserSettings.inc'
-
-if (!(Test-Path $rmskinIni)) {
-    throw "Missing RMSKIN.ini at project root."
-}
+$metadataSource = Join-Path $projectRoot 'Skins\UptimeClockPro\Clock\Anchor.ini'
 
 if (!(Test-Path $userSettings)) {
     throw "Missing source UserSettings.inc."
 }
 
-$rmskinText = Get-Content -LiteralPath $rmskinIni -Raw
+if (!(Test-Path $metadataSource)) {
+    throw "Missing Clock\Anchor.ini metadata source."
+}
+
 if (!$Version) {
-    $match = [regex]::Match($rmskinText, '(?m)^Version=(.+)$')
+    $metadataText = Get-Content -LiteralPath $metadataSource -Raw
+    $match = [regex]::Match($metadataText, '(?m)^Version=(.+)$')
     if (!$match.Success) {
-        throw "RMSKIN.ini does not contain Version=."
+        throw "Clock\Anchor.ini does not contain Version=."
     }
     $Version = $match.Groups[1].Value.Trim()
 }
+
+$rmskinText = "[rmskin]`r`nName=Uptime Clock Pro`r`nAuthor=PetersMinistry`r`nVersion=$Version`r`nLoadType=Skin`r`nLoad=UptimeClockPro\Control\Launcher.ini`r`nMinimumRainmeter=4.5.0`r`nMinimumWindows=10.0`r`n"
 
 if (!$OutputName) {
     $OutputName = "Uptime-Clock-Pro_$Version-beta-test.rmskin"

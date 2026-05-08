@@ -57,7 +57,7 @@ UptimeClockPro\Uptime\Words.ini
 
 Beta prototype. Not ready for a formal release package yet.
 
-Beta build history is tracked in `CHANGELOG.md`. Release preflight steps are tracked in `RELEASE_CHECKLIST.md`.
+Beta build history is tracked in `CHANGELOG.md`.
 
 ## Version
 
@@ -74,12 +74,11 @@ Released under the MIT License (`LICENSE.md`).
 For `.rmskin` release packaging, follow the same verified standard used by Codex Halo:
 
 - Package from the committed Git tree, not the live Rainmeter test folder.
-- Keep the project-root `RMSKIN.ini` at the package root.
+- The package builder writes `RMSKIN.ini` into the installer root.
 - Use `Name=Uptime Clock Pro`, `Author=PetersMinistry`, `Version=0.4.1`, `LoadType=Skin`, and `Load=UptimeClockPro\Control\Launcher.ini`.
 - Use `MinimumRainmeter=4.5.0` and `MinimumWindows=10.0`.
 - Inspect the final package footer; a valid package should end with the 16-byte Rainmeter footer used by Codex Halo, displaying as `NUL RMSKIN NUL`.
 - Do not include local-only coordinates, `FUTURE_IMPROVEMENTS.md`, design contact sheets, Git metadata, package outputs, or loose/nested `.rmskin` files.
-- Run through `RELEASE_CHECKLIST.md` before creating a public beta package.
 
 Build a local test package with:
 
