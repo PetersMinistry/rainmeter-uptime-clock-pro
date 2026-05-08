@@ -30,13 +30,13 @@ UptimeClockPro\Clock\Anchor.ini
 - Integrated current weather using Open-Meteo with no API key.
 - Custom Rainmeter shape-based weather visuals for clear, cloudy, rain, snow, fog, and storm conditions.
 - Temperature, condition text, and compact weather details worked into the clock composition.
-- Small control panel for loading, refreshing, or closing the clock/weather anchor.
+- Integrated control/settings block for loading, refreshing, closing, and adjusting weather coordinates/units.
 - Original PetersMinistry credit and visual direction.
 
 ## Notes
 
 - Weather is experimental and currently uses latitude/longitude variables in `Clock\Anchor.ini`.
-- Temperature and wind units are variable-driven in `Clock\Anchor.ini` as an early step toward a proper settings flow.
+- Weather coordinates and Fahrenheit/Celsius units can be adjusted from `Control\Launcher.ini`; city, postal, and ZIP lookup still belong in a future settings pass.
 - The active font stack uses WindSong for the clock and Segoe UI Semilight for compact Rainmeter UI text.
 - Bundled OFL fonts in `@Resources\Fonts` are included as visual alternates and for future design work.
 - The skin intentionally does not force Rainmeter layer, position, or always-on-top settings.
