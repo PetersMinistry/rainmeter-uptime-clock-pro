@@ -32,7 +32,7 @@ UptimeClockPro\Control\Launcher.ini
 - Original custom utility for Peter/PetersMinistry. Existing skins are reference only, not source material to copy.
 - Current visual identity uses WindSong for the clock and Segoe UI Semilight for small UI text because Rainmeter rendered the downloaded variable fonts too chunky at panel sizes.
 - Weather uses Open-Meteo JSON with no API key in the current experiment.
-- Weather coordinates and units can be edited through the control/settings block.
+- Weather coordinates and units can be edited through the control/settings block, which includes basic coordinate instructions and a lookup link.
 - Weather location and units are currently edited through variables in `Clock\Anchor.ini`.
 - Weather visuals are built with Rainmeter shape meters, not copied weather icon packs.
 - It does not set Rainmeter layer/position options.
