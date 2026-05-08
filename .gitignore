@@ -1,5 +1,7 @@
 # Internal planning / Codex maintenance
 FUTURE_IMPROVEMENTS.md
+design/
+tools/render-weather-scene.ps1
 .git-meta/
 .git/
 
