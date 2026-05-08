@@ -80,3 +80,9 @@ For `.rmskin` release packaging, follow the same verified standard used by Codex
 - Inspect the final package footer; a valid package should end with the 16-byte Rainmeter footer used by Codex Halo, displaying as `NUL RMSKIN NUL`.
 - Do not include local-only coordinates, `FUTURE_IMPROVEMENTS.md`, design contact sheets, Git metadata, package outputs, or loose/nested `.rmskin` files.
 - Run through `RELEASE_CHECKLIST.md` before creating a public beta package.
+
+Build a local test package with:
+
+```powershell
+.\tools\package-rmskin.ps1
+```

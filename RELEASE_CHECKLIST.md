@@ -13,6 +13,7 @@ Use this checklist before creating a public Uptime Clock Pro `.rmskin` package.
 - Confirm optional uptime words toggle loads and unloads cleanly.
 - Confirm source `Skins\UptimeClockPro\@Resources\UserSettings.inc` uses neutral placeholder coordinates, not Peter's live Sayreville values.
 - Confirm all loadable `.ini` files use `Author=PetersMinistry`, `License=MIT`, `Group=UptimeClockPro`, and the release version.
+- Confirm GitHub language stats are corrected by `.gitattributes` so Rainmeter `.ini` / `.inc` files are not shown as BitBake.
 
 ## Package Metadata
 
@@ -56,6 +57,7 @@ Exclude:
 ## Validation
 
 - Build from the committed project tree, not the live Rainmeter test folder.
+- Build with `.\tools\package-rmskin.ps1`.
 - Inspect the `.rmskin` as a ZIP and verify root `RMSKIN.ini` exists.
 - Inspect the final package footer and verify the 16-byte Rainmeter footer: little-endian ZIP payload length, then the bytes that display as `NUL RMSKIN NUL`.
 - Install into a clean Rainmeter `Skins` folder and load `UptimeClockPro\Control\Launcher.ini`.

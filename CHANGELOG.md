@@ -9,12 +9,18 @@ Current focus:
 - Finish the `am` / `pm` typography and spacing pass across all three layout presets.
 - Keep Cinematic as the main visual direction while Weather and Compact remain alternate layout options.
 - Prepare release packaging only after the visual spacing is approved in Rainmeter.
+- Test-install the generated local `.rmskin` before creating a GitHub release.
 
 Release blockers:
 
 - Final approval of meridiem placement in Cinematic.
 - Final pass on weather setup wording and coordinate-entry behavior.
 - Package validation from the committed project tree, not the live Rainmeter test copy.
+
+### Added
+
+- Added GitHub Linguist overrides so Rainmeter `.ini` and `.inc` files are identified as INI instead of BitBake.
+- Added a repeatable `tools\package-rmskin.ps1` packaging script for local `.rmskin` test builds.
 
 ## 0.4.1-beta - 2026-05-08
 
