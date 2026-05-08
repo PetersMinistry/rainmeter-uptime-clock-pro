@@ -1,6 +1,6 @@
 # GitHub Linguist misidentifies Rainmeter .ini/.inc files as BitBake without hints.
-*.ini linguist-language=INI
-*.inc linguist-language=INI
+*.ini linguist-language=INI linguist-detectable=true
+*.inc linguist-language=INI linguist-detectable=true
 
 # Keep docs/assets from muddying language stats.
 *.md linguist-documentation
