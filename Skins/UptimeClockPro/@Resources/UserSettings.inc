@@ -5,3 +5,4 @@ TemperatureUnit=fahrenheit
 TemperatureSuffix=F
 WindSpeedUnit=mph
 WindyThreshold=20
+LayoutMode=cinematic
