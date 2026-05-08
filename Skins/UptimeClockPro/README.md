@@ -29,7 +29,7 @@ UptimeClockPro\Control\Launcher.ini
 
 ## Notes
 
-- Original custom utility for Peter/PetersMinistry. Existing skins are reference only, not source material to copy.
+- Custom Rainmeter clock/weather skin by PetersMinistry. Existing skins are reference only, not source material to copy.
 - Public author metadata should stay `Author=PetersMinistry`, matching the Codex Halo standard.
 - Suite group metadata should stay `Group=UptimeClockPro` for all loadable pieces.
 - Current visual identity uses WindSong for the clock and Segoe UI Semilight for small UI text because Rainmeter rendered the downloaded variable fonts too chunky at panel sizes.
