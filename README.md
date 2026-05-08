@@ -1,8 +1,8 @@
 # Uptime Clock Pro
 
-Uptime Clock Pro is an original Rainmeter utility suite by PetersMinistry. It is designed as a set of small desktop pieces that work together: a clock anchor, uptime panel, system pulse panel, weather panel, and control launcher.
+Uptime Clock Pro is an original Rainmeter clock/weather utility by PetersMinistry. The project has been refocused around one strong desktop anchor: expressive time, date, and simplified weather with custom condition visuals.
 
-This project is early prototype work, but the source tree is already shaped for Rainmeter distribution.
+This is early prototype work, but the source tree is shaped for Rainmeter distribution.
 
 ## Skin Layout
 
@@ -12,35 +12,35 @@ The Rainmeter skin lives in:
 Skins\UptimeClockPro
 ```
 
-Load the suite from:
+Load the control panel from:
 
 ```text
 UptimeClockPro\Control\Launcher.ini
 ```
 
-Individual pieces:
+Load the main clock/weather anchor directly from:
 
-- `UptimeClockPro\Clock\Anchor.ini`
-- `UptimeClockPro\Uptime\Session.ini`
-- `UptimeClockPro\System\Pulse.ini`
-- `UptimeClockPro\Weather\Current.ini`
-- `UptimeClockPro\Control\Launcher.ini`
+```text
+UptimeClockPro\Clock\Anchor.ini
+```
 
 ## Current Features
 
-- Large time/date/uptime anchor.
-- Compact system uptime panel.
-- CPU/RAM pulse panel.
-- Compact current-weather experiment using Open-Meteo with no API key.
-- Launcher panel for loading or closing suite pieces.
+- Large expressive time and date anchor.
+- Integrated current weather using Open-Meteo with no API key.
+- Custom Rainmeter shape-based weather visuals for clear, cloudy, rain, snow, fog, and storm conditions.
+- Temperature, condition text, and compact weather details worked into the clock composition.
+- Small control panel for loading, refreshing, or closing the clock/weather anchor.
 - Original PetersMinistry credit and visual direction.
 
 ## Notes
 
-- Weather is experimental and currently uses latitude/longitude variables in `Weather\Current.ini`.
+- Weather is experimental and currently uses latitude/longitude variables in `Clock\Anchor.ini`.
+- Temperature and wind units are variable-driven in `Clock\Anchor.ini` as an early step toward a proper settings flow.
 - The active font stack uses WindSong for the clock and Segoe UI Semilight for compact Rainmeter UI text.
 - Bundled OFL fonts in `@Resources\Fonts` are included as visual alternates and for future design work.
-- The suite intentionally does not force Rainmeter layer, position, or always-on-top settings.
+- The skin intentionally does not force Rainmeter layer, position, or always-on-top settings.
+- Older separate uptime, pulse, and standalone weather panels were removed from the core product direction because they made this feel like a dashboard instead of an evolved clock.
 
 ## Status
 
