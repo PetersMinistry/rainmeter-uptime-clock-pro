@@ -4,6 +4,26 @@ Uptime Clock Pro is an original Rainmeter clock/weather utility by PetersMinistr
 
 This is a stable beta Rainmeter release. The core clock/weather experience is ready for beta distribution, with future settings and polish passes still planned.
 
+## Preview
+
+### Cinematic
+
+![Uptime Clock Pro cinematic layout](docs/screenshots/uptime-clock-pro-cinematic.png)
+
+### Weather
+
+![Uptime Clock Pro weather layout](docs/screenshots/uptime-clock-pro-weather.png)
+
+### Compact
+
+![Uptime Clock Pro compact layout](docs/screenshots/uptime-clock-pro-compact.png)
+
+## Download
+
+Get the current stable beta from the GitHub Releases page:
+
+[Uptime Clock Pro 0.5.0 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.5.0-beta.1)
+
 ## Skin Layout
 
 The Rainmeter skin lives in:
@@ -67,7 +87,7 @@ Current build: `0.5.0`
 
 Created by [PetersMinistry](https://github.com/PetersMinistry).
 
-Released under the MIT License (`LICENSE.md`).
+Released under the MIT License (`LICENSE.md`). Bundled fonts are licensed separately under the SIL Open Font License and include their license files.
 
 ## Packaging Notes
 
