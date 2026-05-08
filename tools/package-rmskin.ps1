@@ -96,7 +96,7 @@ try {
     foreach ($pattern in @('.git', '.git-meta', 'FUTURE_IMPROVEMENTS.md', 'design/', 'dist/', '.rmskin', '.zip')) {
         $bad = $entries | Where-Object { $_ -like "*$pattern*" }
         if ($bad) {
-            throw "Package ZIP contains forbidden entry matching $pattern: $($bad -join ', ')"
+            throw "Package ZIP contains forbidden entry matching ${pattern}: $($bad -join ', ')"
         }
     }
 }
@@ -114,6 +114,7 @@ $out = New-Object byte[] ($zipBytes.Length + $footer.Length)
 [Array]::Copy($zipBytes, 0, $out, 0, $zipBytes.Length)
 [Array]::Copy($footer, 0, $out, $zipBytes.Length, $footer.Length)
 [System.IO.File]::WriteAllBytes($rmskinPath, $out)
+Remove-Item -LiteralPath $zipPath -Force
 
 $footerAscii = -join ($out[($out.Length - 8)..($out.Length - 1)] | ForEach-Object {
     if ($_ -eq 0) { 'NUL ' } else { [char]$_ }
@@ -125,4 +126,3 @@ $footerAscii = -join ($out[($out.Length - 8)..($out.Length - 1)] | ForEach-Objec
     FooterAscii = $footerAscii.Trim()
     Version = $Version
 }
-
