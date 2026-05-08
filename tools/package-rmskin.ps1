@@ -30,7 +30,7 @@ if (!$Version) {
 $rmskinText = "[rmskin]`r`nName=Uptime Clock Pro`r`nAuthor=PetersMinistry`r`nVersion=$Version`r`nLoadType=Skin`r`nLoad=UptimeClockPro\Control\Launcher.ini`r`nMinimumRainmeter=4.5.0`r`nMinimumWindows=10.0`r`n"
 
 if (!$OutputName) {
-    $OutputName = "Uptime-Clock-Pro_$Version-beta-test.rmskin"
+    $OutputName = "Uptime-Clock-Pro_$Version-stable-beta.rmskin"
 }
 
 $settingsText = Get-Content -LiteralPath $userSettings -Raw

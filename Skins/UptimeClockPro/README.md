@@ -1,6 +1,6 @@
 # Uptime Clock Pro
 
-Prototype original Rainmeter clock/weather utility by PetersMinistry.
+Stable beta Rainmeter clock/weather utility by PetersMinistry.
 
 For real installation or packaging, the root skin folder should be:
 
@@ -33,7 +33,7 @@ UptimeClockPro\Control\Launcher.ini
 - Public author metadata should stay `Author=PetersMinistry`, matching the Codex Halo standard.
 - Suite group metadata should stay `Group=UptimeClockPro` for all loadable pieces.
 - Current visual identity uses WindSong for the clock and Segoe UI Semilight for small UI text because Rainmeter rendered the downloaded variable fonts too chunky at panel sizes.
-- Weather uses Open-Meteo JSON with no API key in the current experiment.
+- Weather uses Open-Meteo JSON with no API key.
 - Weather coordinates and units can be edited through the control/settings block, which shows saved values, a resolved city/state/country check, basic coordinate instructions, and a lookup link.
 - Weather location and units are stored in `@Resources\UserSettings.inc`.
 - Weather visuals are built with Rainmeter shape meters, not copied weather icon packs.
@@ -42,9 +42,9 @@ UptimeClockPro\Control\Launcher.ini
 
 ## Version
 
-Current build: `0.4.1`
+Current build: `0.5.0`
 
-Beta build history and release checklist files are maintained in the project root before public `.rmskin` packaging.
+Beta build history is maintained in the project root changelog before public `.rmskin` packaging.
 
 ## Credits
 

@@ -2,7 +2,7 @@
 
 Uptime Clock Pro is an original Rainmeter clock/weather utility by PetersMinistry. The project has been refocused around one strong desktop anchor: expressive time, date, and simplified weather with custom condition visuals.
 
-This is early prototype work, but the source tree is shaped for Rainmeter distribution.
+This is a stable beta Rainmeter release. The core clock/weather experience is ready for beta distribution, with future settings and polish passes still planned.
 
 ## Skin Layout
 
@@ -44,7 +44,7 @@ UptimeClockPro\Uptime\Words.ini
 
 ## Notes
 
-- Weather is experimental and currently uses latitude/longitude variables stored in `Skins\UptimeClockPro\@Resources\UserSettings.inc`.
+- Weather uses latitude/longitude variables stored in `Skins\UptimeClockPro\@Resources\UserSettings.inc`.
 - Weather coordinates and Fahrenheit/Celsius units can be adjusted from `Control\Launcher.ini`. The settings block shows the current saved coordinates and reverse-looked-up location so a user can tell whether the input was accepted; city, postal, and ZIP lookup still belong in a future settings pass.
 - The current weather art is raster-based, not shape-only, so package builds must include `@Resources\Images\weather-scene-*.png`.
 - Layout presets are stored in `@Resources\Layouts` and selected through `LayoutMode` in `@Resources\UserSettings.inc`.
@@ -55,13 +55,13 @@ UptimeClockPro\Uptime\Words.ini
 
 ## Status
 
-Beta prototype. Not ready for a formal release package yet.
+Stable beta. Packaged for beta distribution and continued real-world testing.
 
 Beta build history is tracked in `CHANGELOG.md`.
 
 ## Version
 
-Current build: `0.4.1`
+Current build: `0.5.0`
 
 ## Credits
 
@@ -75,7 +75,7 @@ For `.rmskin` release packaging, follow the same verified standard used by Codex
 
 - Package from the committed Git tree, not the live Rainmeter test folder.
 - The package builder writes `RMSKIN.ini` into the installer root.
-- Use `Name=Uptime Clock Pro`, `Author=PetersMinistry`, `Version=0.4.1`, `LoadType=Skin`, and `Load=UptimeClockPro\Control\Launcher.ini`.
+- Use `Name=Uptime Clock Pro`, `Author=PetersMinistry`, `Version=0.5.0`, `LoadType=Skin`, and `Load=UptimeClockPro\Control\Launcher.ini`.
 - Use `MinimumRainmeter=4.5.0` and `MinimumWindows=10.0`.
 - Inspect the final package footer; a valid package should end with the 16-byte Rainmeter footer used by Codex Halo, displaying as `NUL RMSKIN NUL`.
 - Do not include local-only coordinates, `FUTURE_IMPROVEMENTS.md`, design contact sheets, Git metadata, package outputs, or loose/nested `.rmskin` files.

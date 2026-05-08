@@ -1,26 +1,40 @@
 # Beta Build Changelog
 
-This file tracks Uptime Clock Pro beta/prototype progress before a public `.rmskin` release. Formal releases should keep these notes, then add a clean release entry with the packaged version and asset name.
+This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Current focus:
+Future beta work will continue here after `0.5.0`.
 
-- Finish the `am` / `pm` typography and spacing pass across all three layout presets.
-- Keep Cinematic as the main visual direction while Weather and Compact remain alternate layout options.
-- Prepare release packaging only after the visual spacing is approved in Rainmeter.
-- Test-install the generated local `.rmskin` before creating a GitHub release.
+## 0.5.0 Stable Beta - 2026-05-08
 
-Release blockers:
+First stable beta package for public prerelease testing.
 
-- Final approval of meridiem placement in Cinematic.
-- Final pass on weather setup wording and coordinate-entry behavior.
-- Package validation from the committed project tree, not the live Rainmeter test copy.
+Release asset:
 
-### Added
+- `Uptime-Clock-Pro_0.5.0-stable-beta.rmskin`
 
-- Added GitHub Linguist overrides so Rainmeter `.ini` and `.inc` files are identified as INI instead of BitBake.
-- Added a repeatable `tools\package-rmskin.ps1` packaging script for local `.rmskin` test builds.
+### Release Notes
+
+- Promoted the project from prototype/test package to stable beta.
+- Updated Rainmeter metadata version to `0.5.0`.
+- Confirmed the skin runs well enough for beta distribution.
+- Kept this as a GitHub prerelease so future polish and settings work can continue without implying a final 1.0.
+
+### Included
+
+- Integrated clock/date/weather anchor.
+- Painterly weather scenes for the current Open-Meteo condition set.
+- Three layout presets: Cinematic, Weather, and Compact.
+- Control panel for loading, refreshing, closing, coordinate entry, unit selection, and resolved-location feedback.
+- Optional uptime words module.
+- Repeatable `.rmskin` packaging script with package-shape and private-coordinate checks.
+
+### Still Planned
+
+- Easier weather location setup with city/postal/ZIP lookup.
+- More end-user instructions inside the settings flow.
+- Continued layout, typography, and weather-scene polish as real-world testing exposes rough edges.
 
 ## 0.4.1-beta - 2026-05-08
 
@@ -53,9 +67,9 @@ Release blockers:
 - Fixed duplicate/ghost clock rendering in the setup panel by keeping `Control\Launcher.ini` from including the full clock skin.
 - Fixed topmost coordinate input behavior by making InputText less eager to dismiss focus.
 
-### Known Issues
+### Known Issues At This Checkpoint
 
-- The current beta is not packaged as a release yet.
+- This beta checkpoint was not packaged as a release yet.
 - City/postal/ZIP lookup is still future work; users currently enter decimal coordinates.
 - Weather setup copy still needs one final clarity pass before public packaging.
 - Meridiem spacing is still being tuned, especially in the Cinematic layout.
