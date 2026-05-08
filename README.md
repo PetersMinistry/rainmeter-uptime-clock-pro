@@ -56,3 +56,24 @@ UptimeClockPro\Uptime\Words.ini
 ## Status
 
 Prototype. Not ready for a formal release package yet.
+
+## Version
+
+Current build: `0.4.1`
+
+## Credits
+
+Created by [PetersMinistry](https://github.com/PetersMinistry).
+
+Released under the MIT License.
+
+## Packaging Notes
+
+For `.rmskin` release packaging, follow the same verified standard used by Codex Halo:
+
+- Package from the committed Git tree, not the live Rainmeter test folder.
+- Keep `RMSKIN.ini` at the package root.
+- Use `Name=Uptime Clock Pro`, `Author=PetersMinistry`, `Version=0.4.1`, `LoadType=Skin`, and `Load=UptimeClockPro\Control\Launcher.ini`.
+- Use `MinimumRainmeter=4.5.0` and `MinimumWindows=10.0`.
+- Inspect the final package footer; a valid package should end with the `NUL RMSKIN NUL` signature pattern.
+- Do not include local-only coordinates, `FUTURE_IMPROVEMENTS.md`, design contact sheets, Git metadata, package outputs, or loose/nested `.rmskin` files.

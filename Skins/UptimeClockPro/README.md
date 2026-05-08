@@ -30,6 +30,8 @@ UptimeClockPro\Control\Launcher.ini
 ## Notes
 
 - Original custom utility for Peter/PetersMinistry. Existing skins are reference only, not source material to copy.
+- Public author metadata should stay `Author=PetersMinistry`, matching the Codex Halo standard.
+- Suite group metadata should stay `Group=UptimeClockPro` for all loadable pieces.
 - Current visual identity uses WindSong for the clock and Segoe UI Semilight for small UI text because Rainmeter rendered the downloaded variable fonts too chunky at panel sizes.
 - Weather uses Open-Meteo JSON with no API key in the current experiment.
 - Weather coordinates and units can be edited through the control/settings block, which shows saved values, a resolved city/state/country check, basic coordinate instructions, and a lookup link.
@@ -37,3 +39,13 @@ UptimeClockPro\Control\Launcher.ini
 - Weather visuals are built with Rainmeter shape meters, not copied weather icon packs.
 - It does not set Rainmeter layer/position options.
 - Internal activation paths use `#ROOTCONFIG#` so the skin can install under any normal Rainmeter `Skins` folder.
+
+## Version
+
+Current build: `0.4.1`
+
+## Credits
+
+Created by [PetersMinistry](https://github.com/PetersMinistry).
+
+Released under the MIT License.
