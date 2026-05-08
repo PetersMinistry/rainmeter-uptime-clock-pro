@@ -116,13 +116,14 @@ $out = New-Object byte[] ($zipBytes.Length + $footer.Length)
 [System.IO.File]::WriteAllBytes($rmskinPath, $out)
 Remove-Item -LiteralPath $zipPath -Force
 
-$footerAscii = -join ($out[($out.Length - 8)..($out.Length - 1)] | ForEach-Object {
-    if ($_ -eq 0) { 'NUL ' } else { [char]$_ }
-})
+$actualSignature = $out[($out.Length - 8)..($out.Length - 1)]
+$signatureOk = (($actualSignature -join ',') -eq '0,82,77,83,75,73,78,0')
+$footerAscii = if ($signatureOk) { 'NUL RMSKIN NUL' } else { ($actualSignature | ForEach-Object { $_.ToString('X2') }) -join ' ' }
 
 [PSCustomObject]@{
     Package = $rmskinPath
     ZipPayloadBytes = $zipBytes.Length
-    FooterAscii = $footerAscii.Trim()
+    FooterAscii = $footerAscii
+    SignatureOK = $signatureOk
     Version = $Version
 }
