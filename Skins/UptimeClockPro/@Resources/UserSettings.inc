@@ -4,3 +4,4 @@ WeatherLongitude=-74.0060
 TemperatureUnit=fahrenheit
 TemperatureSuffix=F
 WindSpeedUnit=mph
+WindyThreshold=20
