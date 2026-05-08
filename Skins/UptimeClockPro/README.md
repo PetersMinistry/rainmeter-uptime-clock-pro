@@ -44,6 +44,8 @@ UptimeClockPro\Control\Launcher.ini
 
 Current build: `0.4.1`
 
+Beta build history and release checklist files are maintained in the project root before public `.rmskin` packaging.
+
 ## Credits
 
 Created by [PetersMinistry](https://github.com/PetersMinistry).
