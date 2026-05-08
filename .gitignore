@@ -3,6 +3,7 @@ FUTURE_IMPROVEMENTS.md
 RELEASE_CHECKLIST.md
 RMSKIN.ini
 design/
+tools/package-rmskin.ps1
 tools/render-weather-scene.ps1
 .git-meta/
 .git/

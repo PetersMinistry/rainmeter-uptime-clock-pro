@@ -2,7 +2,7 @@
 
 Stable beta Rainmeter clock/weather utility by PetersMinistry.
 
-For real installation or packaging, the root skin folder should be:
+For normal Rainmeter installation, the root skin folder should be:
 
 ```text
 %USERPROFILE%\Documents\Rainmeter\Skins\UptimeClockPro
@@ -44,7 +44,7 @@ UptimeClockPro\Control\Launcher.ini
 
 Current build: `0.5.0`
 
-Beta build history is maintained in the project root changelog before public `.rmskin` packaging.
+Beta build history is maintained in the project root changelog.
 
 ## Credits
 

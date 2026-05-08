@@ -66,7 +66,7 @@ UptimeClockPro\Uptime\Words.ini
 
 - Weather uses latitude/longitude variables stored in `Skins\UptimeClockPro\@Resources\UserSettings.inc`.
 - Weather coordinates and Fahrenheit/Celsius units can be adjusted from `Control\Launcher.ini`. The settings block shows the current saved coordinates and reverse-looked-up location so a user can tell whether the input was accepted; city, postal, and ZIP lookup still belong in a future settings pass.
-- The current weather art is raster-based, not shape-only, so package builds must include `@Resources\Images\weather-scene-*.png`.
+- The current weather art is raster-based, not shape-only, and is included with the skin resources.
 - Layout presets are stored in `@Resources\Layouts` and selected through `LayoutMode` in `@Resources\UserSettings.inc`.
 - The active font stack uses WindSong for the clock and Segoe UI Semilight for compact Rainmeter UI text.
 - Bundled OFL fonts in `@Resources\Fonts` are included as visual alternates and for future design work.
@@ -89,19 +89,3 @@ Created by [PetersMinistry](https://github.com/PetersMinistry).
 
 Released under the MIT License (`LICENSE.md`). Bundled fonts are licensed separately under the SIL Open Font License and include their license files.
 
-## Packaging Notes
-
-For `.rmskin` release packaging, follow the same verified standard used by Codex Halo:
-
-- Package from the committed Git tree, not the live Rainmeter test folder.
-- The package builder writes `RMSKIN.ini` into the installer root.
-- Use `Name=Uptime Clock Pro`, `Author=PetersMinistry`, `Version=0.5.0`, `LoadType=Skin`, and `Load=UptimeClockPro\Control\Launcher.ini`.
-- Use `MinimumRainmeter=4.5.0` and `MinimumWindows=10.0`.
-- Inspect the final package footer; a valid package should end with the 16-byte Rainmeter footer used by Codex Halo, displaying as `NUL RMSKIN NUL`.
-- Do not include local-only coordinates, `FUTURE_IMPROVEMENTS.md`, design contact sheets, Git metadata, package outputs, or loose/nested `.rmskin` files.
-
-Build a local test package with:
-
-```powershell
-.\tools\package-rmskin.ps1
-```

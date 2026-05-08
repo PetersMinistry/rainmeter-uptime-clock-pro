@@ -4,6 +4,5 @@
 
 # Keep docs/assets from muddying language stats.
 *.md linguist-documentation
-tools/*.ps1 linguist-vendored
 Skins/UptimeClockPro/@Resources/Fonts/* linguist-vendored
 Skins/UptimeClockPro/@Resources/Images/* linguist-vendored

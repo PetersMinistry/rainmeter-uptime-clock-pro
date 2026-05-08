@@ -28,7 +28,7 @@ Release asset:
 - Three layout presets: Cinematic, Weather, and Compact.
 - Control panel for loading, refreshing, closing, coordinate entry, unit selection, and resolved-location feedback.
 - Optional uptime words module.
-- Repeatable `.rmskin` packaging script with package-shape and private-coordinate checks.
+- Validated `.rmskin` release asset for stable beta distribution.
 
 ### Still Planned
 
@@ -69,8 +69,8 @@ Release asset:
 
 ### Known Issues At This Checkpoint
 
-- This beta checkpoint was not packaged as a release yet.
+- This beta checkpoint was not published as a release yet.
 - City/postal/ZIP lookup is still future work; users currently enter decimal coordinates.
-- Weather setup copy still needs one final clarity pass before public packaging.
+- Weather setup copy still needs one final clarity pass before wider public polish.
 - Meridiem spacing is still being tuned, especially in the Cinematic layout.
 
