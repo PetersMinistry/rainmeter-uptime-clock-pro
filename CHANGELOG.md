@@ -4,7 +4,24 @@ This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.5.0`.
+Future beta work will continue here after `0.5.1`.
+
+## 0.5.1 Stable Beta - 2026-05-08
+
+Small beta patch for clock typography spacing after live layout review.
+
+Release asset:
+
+- `Uptime-Clock-Pro_0.5.1-stable-beta.rmskin`
+
+### Fixed
+
+- Added a little more breathing room between the time numerals and lowercase `am` / `pm` marker in the Weather layout.
+- Applied the same meridiem spacing adjustment to the Cinematic layout so wider time strings do not crowd the final digit.
+
+### Notes
+
+- No weather data, settings, artwork, or install behavior changed in this beta tick.
 
 ## 0.5.0 Stable Beta - 2026-05-08
 
@@ -26,15 +43,16 @@ Release asset:
 - Integrated clock/date/weather anchor.
 - Painterly weather scenes for the current Open-Meteo condition set.
 - Three layout presets: Cinematic, Weather, and Compact.
-- Control panel for loading, refreshing, closing, coordinate entry, unit selection, and resolved-location feedback.
+- Control panel for loading, refreshing, closing, coordinate entry, unit selection, coordinate instructions, and resolved-location feedback.
 - Optional uptime words module.
 - Validated `.rmskin` release asset for stable beta distribution.
 
 ### Still Planned
 
 - Easier weather location setup with city/postal/ZIP lookup.
-- More end-user instructions inside the settings flow.
-- Continued layout, typography, and weather-scene polish as real-world testing exposes rough edges.
+- More visual/interaction polish as real-world testing exposes rough edges.
+- Additional layout and sizing controls for deeper user customization.
+- More weather setup convenience beyond manual decimal coordinates.
 
 ## 0.4.1-beta - 2026-05-08
 
@@ -69,8 +87,7 @@ Release asset:
 
 ### Known Issues At This Checkpoint
 
-- This beta checkpoint was not published as a release yet.
-- City/postal/ZIP lookup is still future work; users currently enter decimal coordinates.
-- Weather setup copy still needs one final clarity pass before wider public polish.
-- Meridiem spacing is still being tuned, especially in the Cinematic layout.
+- This `0.4.1-beta` checkpoint was superseded by the published `0.5.0` stable beta.
+- City/postal/ZIP lookup was still future work at this checkpoint; users entered decimal coordinates.
+- Weather setup copy and meridiem spacing were still being tuned at this checkpoint.
 
