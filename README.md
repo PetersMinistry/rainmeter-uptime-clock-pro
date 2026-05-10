@@ -18,6 +18,10 @@ This is a stable beta Rainmeter release. The core clock/weather experience is re
 
 ![Uptime Clock Pro compact layout](docs/screenshots/uptime-clock-pro-compact.png)
 
+### Language Picker
+
+![Uptime Clock Pro language picker](docs/screenshots/uptime-clock-pro-language-picker.png)
+
 ## Download
 
 Get the current stable beta from the GitHub Releases page:
