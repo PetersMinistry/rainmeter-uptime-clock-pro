@@ -22,7 +22,7 @@ This is a stable beta Rainmeter release. The core clock/weather experience is re
 
 Get the current stable beta from the GitHub Releases page:
 
-[Uptime Clock Pro 0.5.1 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.5.1-beta.1)
+[Uptime Clock Pro 0.6.0 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.6.0-beta.1)
 
 ## Skin Layout
 
@@ -59,6 +59,7 @@ UptimeClockPro\Uptime\Words.ini
 - Temperature, condition text, and compact weather details worked into the clock composition.
 - Integrated control/settings block for loading, refreshing, closing, adjusting weather coordinates/units, and showing the resolved location for saved coordinates.
 - Three menu-selectable clock layout presets: Cinematic, Weather, and Compact.
+- English, Russian, Spanish, Italian, French, and German language selection for the clock weather labels, settings panel, language picker, and optional uptime words module.
 - Optional text-only uptime words module that can be loaded and placed independently.
 - PetersMinistry credit and custom visual direction.
 
@@ -68,6 +69,8 @@ UptimeClockPro\Uptime\Words.ini
 - Weather coordinates and Fahrenheit/Celsius units can be adjusted from `Control\Launcher.ini`. The settings block shows the current saved coordinates and reverse-looked-up location so a user can tell whether the input was accepted; city, postal, and ZIP lookup still belong in a future settings pass.
 - The current weather art is raster-based, not shape-only, and is included with the skin resources.
 - Layout presets are stored in `@Resources\Layouts` and selected through `LayoutMode` in `@Resources\UserSettings.inc`.
+- Language files are stored in `@Resources\Languages`; the settings panel opens a dedicated language picker so future languages do not crowd the setup controls.
+- Future translations can be added with the drop-in include workflow documented in `docs\LOCALIZATION.md`.
 - The active font stack uses WindSong for the clock and Segoe UI Semilight for compact Rainmeter UI text.
 - Bundled OFL fonts in `@Resources\Fonts` are included as visual alternates and for future design work.
 - The skin intentionally does not force Rainmeter layer, position, or always-on-top settings.
@@ -81,7 +84,7 @@ Beta build history is tracked in `CHANGELOG.md`.
 
 ## Version
 
-Current build: `0.5.1`
+Current build: `0.6.0`
 
 ## Credits
 

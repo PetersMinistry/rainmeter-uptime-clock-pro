@@ -12,6 +12,7 @@ For normal Rainmeter installation, the root skin folder should be:
 
 - `Clock\Anchor.ini` - integrated time, date, weather visuals, temperature, and condition text.
 - `Control\Launcher.ini` - compact control/settings block for loading, refreshing, closing, and weather setup.
+- `Language\Picker.ini` - compact language selection popup.
 
 ## Load After Install
 
@@ -36,13 +37,14 @@ UptimeClockPro\Control\Launcher.ini
 - Weather uses Open-Meteo JSON with no API key.
 - Weather coordinates and units can be edited through the control/settings block, which shows saved values, a resolved city/state/country check, basic coordinate instructions, and a lookup link.
 - Weather location and units are stored in `@Resources\UserSettings.inc`.
+- Language selection supports English, Russian, Spanish, Italian, French, and German through `@Resources\Languages`, uses `Language\Picker.ini`, and is stored in `@Resources\UserSettings.inc`.
 - Weather visuals are built with Rainmeter shape meters, not copied weather icon packs.
 - It does not set Rainmeter layer/position options.
 - Internal activation paths use `#ROOTCONFIG#` so the skin can install under any normal Rainmeter `Skins` folder.
 
 ## Version
 
-Current build: `0.5.1`
+Current build: `0.6.0`
 
 Beta build history is maintained in the project root changelog.
 

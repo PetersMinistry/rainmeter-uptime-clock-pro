@@ -4,7 +4,28 @@ This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.5.1`.
+Future beta work will continue here after `0.6.0`.
+
+## 0.6.0 Stable Beta - 2026-05-10
+
+Language selection beta with a dedicated picker popup and six initial translations.
+
+Release assets:
+
+- `Uptime-Clock-Pro_0.6.0-stable-beta.rmskin`
+- `Uptime-Clock-Pro_0.6.0-language-picker.png`
+
+### Added
+
+- Added English, Russian, Spanish, Italian, French, and German language files for the clock weather labels, control panel, right-click context labels, and optional uptime words module.
+- Added a compact language row in the control panel that opens `Language\Picker.ini`; switching language writes only `Language` and `LanguageId` to `@Resources\UserSettings.inc`.
+- Saved non-ASCII translated language includes as UTF-16 LE so Rainmeter renders Cyrillic and accented characters correctly on default Windows installs.
+- Added `docs\LOCALIZATION.md` so future language requests can use the same drop-in include pattern.
+
+### Changed
+
+- Language picker now stays open after selecting a language and closes only through its `X` button or context close.
+- Setup panel and language picker use solid panel backgrounds for readability while testing longer translated strings.
 
 ## 0.5.1 Stable Beta - 2026-05-08
 

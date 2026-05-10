@@ -7,3 +7,5 @@ WindSpeedUnit=mph
 WindyThreshold=20
 LayoutMode=cinematic
 LayoutId=1
+Language=en
+LanguageId=1
