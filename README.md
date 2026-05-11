@@ -1,6 +1,6 @@
 # Uptime Clock Pro
 
-Uptime Clock Pro is a custom Rainmeter clock/weather skin by PetersMinistry. The project has been refocused around one strong desktop anchor: expressive time, date, and simplified weather with custom condition visuals.
+Uptime Clock Pro is a custom Rainmeter clock/weather skin. The project has been refocused around one strong desktop anchor: expressive time, date, and simplified weather with custom condition visuals.
 
 This is a stable beta Rainmeter release. The core clock/weather experience is ready for beta distribution, with future settings and polish passes still planned.
 
