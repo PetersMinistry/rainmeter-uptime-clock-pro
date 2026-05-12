@@ -10,5 +10,5 @@ LayoutId=1
 Language=en
 LanguageId=1
 ClockUse24Hour=0
-ClockTimeFormat=%#I:%M
+ClockTimeFormat=%#I:%M %p
 ClockMeridiemHidden=0

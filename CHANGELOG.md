@@ -23,7 +23,8 @@ Release asset:
 ### Changed
 
 - The main time meter now keeps the same WindSong clock styling while reading the selected time format from settings.
-- The separate lowercase `am` / `pm` marker hides automatically when 24-hour mode is selected.
+- The lowercase `am` / `pm` marker is styled inline at the end of the time string so spacing stays consistent across layouts and display environments.
+- The old separate `am` / `pm` meter is hidden; 24-hour mode removes the marker through the selected time format.
 
 ### Notes
 
