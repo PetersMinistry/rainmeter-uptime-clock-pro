@@ -26,7 +26,7 @@ This is a stable beta Rainmeter release. The core clock/weather experience is re
 
 Get the current stable beta from the GitHub Releases page:
 
-[Uptime Clock Pro 0.6.0 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.6.0-beta.1)
+[Uptime Clock Pro 0.6.1 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.6.1-beta.1)
 
 ## Skin Layout
 
@@ -62,6 +62,7 @@ UptimeClockPro\Uptime\Words.ini
 - Weather scene coverage for clear day/night, partly cloudy day/night, cloudy day/night, drizzle, rain, showers, heavy rain, storm, hail, snow, fog, ice/freezing, and windy basic-sky conditions.
 - Temperature, condition text, and compact weather details worked into the clock composition.
 - Integrated control/settings block for loading, refreshing, closing, adjusting weather coordinates/units, and showing the resolved location for saved coordinates.
+- Optional 12-hour or 24-hour clock display from the setup panel.
 - Three menu-selectable clock layout presets: Cinematic, Weather, and Compact.
 - English, Russian, Spanish, Italian, French, and German language selection for the clock weather labels, settings panel, language picker, and optional uptime words module.
 - Optional text-only uptime words module that can be loaded and placed independently.
@@ -88,7 +89,7 @@ Beta build history is tracked in `CHANGELOG.md`.
 
 ## Version
 
-Current build: `0.6.0`
+Current build: `0.6.1`
 
 ## Credits
 

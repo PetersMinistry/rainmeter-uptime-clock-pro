@@ -36,14 +36,15 @@ UptimeClockPro\Control\Launcher.ini
 - Weather uses Open-Meteo JSON with no API key.
 - Weather coordinates and units can be edited through the control/settings block, which shows saved values, a resolved city/state/country check, basic coordinate instructions, and a lookup link.
 - Weather location and units are stored in `@Resources\UserSettings.inc`.
+- Clock format can be switched between `12h` and `24h` from the control/settings block and is stored in `@Resources\UserSettings.inc`.
 - Language selection supports English, Russian, Spanish, Italian, French, and German through `@Resources\Languages`, uses `Language\Picker.ini`, and is stored in `@Resources\UserSettings.inc`.
-- Weather visuals are built with Rainmeter shape meters, not copied weather icon packs.
+- Weather visuals use bundled custom raster scenes, not copied weather icon packs.
 - It does not set Rainmeter layer/position options.
 - Internal activation paths use `#ROOTCONFIG#` so the skin can install under any normal Rainmeter `Skins` folder.
 
 ## Version
 
-Current build: `0.6.0`
+Current build: `0.6.1`
 
 Beta build history is maintained in the project root changelog.
 

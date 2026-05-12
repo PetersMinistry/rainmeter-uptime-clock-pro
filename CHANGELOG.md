@@ -4,7 +4,30 @@ This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.6.0`.
+Future beta work will continue here after `0.6.1`.
+
+## 0.6.1 Stable Beta - 2026-05-12
+
+Clock-format patch release with a user-selectable 12-hour / 24-hour mode.
+
+Release asset:
+
+- `Uptime-Clock-Pro_0.6.1-stable-beta.rmskin`
+
+### Added
+
+- Added a `Clock format` switch in the setup panel with `12h` and `24h` options.
+- Added `ClockUse24Hour`, `ClockTimeFormat`, and `ClockMeridiemHidden` settings so the selected format persists in `@Resources\UserSettings.inc`.
+- Added localized `Clock format` labels for the current language set.
+
+### Changed
+
+- The main time meter now keeps the same WindSong clock styling while reading the selected time format from settings.
+- The separate lowercase `am` / `pm` marker hides automatically when 24-hour mode is selected.
+
+### Notes
+
+- Live test sync preserved Peter's saved weather coordinates and language settings.
 
 ## 0.6.0 Stable Beta - 2026-05-10
 

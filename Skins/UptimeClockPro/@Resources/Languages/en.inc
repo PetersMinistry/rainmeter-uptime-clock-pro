@@ -20,6 +20,7 @@ LangLongitude=Longitude
 LangClickToSet=click to set
 LangFindCoordinates=Find coordinates
 LangLanguage=Language
+LangClockFormat=Clock format
 LangEnglish=EN
 LangRussian=RU
 LangCurrentLanguageName=English
