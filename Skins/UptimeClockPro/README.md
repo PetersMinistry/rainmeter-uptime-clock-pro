@@ -1,6 +1,6 @@
 # Uptime Clock Pro
 
-Stable beta Rainmeter clock/weather utility by PetersMinistry.
+Stable beta Rainmeter clock/weather utility.
 
 For normal Rainmeter installation, the root skin folder should be:
 
@@ -30,7 +30,7 @@ UptimeClockPro\Control\Launcher.ini
 
 ## Notes
 
-- Custom Rainmeter clock/weather skin by PetersMinistry. Existing skins are reference only, not source material to copy.
+- Existing skins are reference only, not source material to copy.
 - Suite group metadata should stay `Group=UptimeClockPro` for all loadable pieces.
 - Current visual identity uses WindSong for the clock and Segoe UI Semilight for small UI text because Rainmeter rendered the downloaded variable fonts too chunky at panel sizes.
 - Weather uses Open-Meteo JSON with no API key.
@@ -47,9 +47,5 @@ UptimeClockPro\Control\Launcher.ini
 Current build: `0.6.1`
 
 Beta build history is maintained in the project root changelog.
-
-## Credits
-
-Created by [PetersMinistry](https://github.com/PetersMinistry).
 
 Released under the MIT License.

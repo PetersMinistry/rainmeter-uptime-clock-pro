@@ -66,7 +66,6 @@ UptimeClockPro\Uptime\Words.ini
 - Three menu-selectable clock layout presets: Cinematic, Weather, and Compact.
 - English, Russian, Spanish, Italian, French, and German language selection for the clock weather labels, settings panel, language picker, and optional uptime words module.
 - Optional text-only uptime words module that can be loaded and placed independently.
-- PetersMinistry credit and custom visual direction.
 
 ## Notes
 
@@ -90,10 +89,6 @@ Beta build history is tracked in `CHANGELOG.md`.
 ## Version
 
 Current build: `0.6.1`
-
-## Credits
-
-Created by [PetersMinistry](https://github.com/PetersMinistry).
 
 Released under the MIT License (`LICENSE.md`). Bundled fonts are licensed separately under the SIL Open Font License and include their license files.
 
