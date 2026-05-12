@@ -10,10 +10,13 @@ Future beta work will continue here after `0.6.0`.
 
 Language selection beta with a dedicated picker popup and six initial translations.
 
-Release assets:
+Release asset:
 
 - `Uptime-Clock-Pro_0.6.0-stable-beta.rmskin`
-- `Uptime-Clock-Pro_0.6.0-language-picker.png`
+
+README preview:
+
+- `docs/screenshots/uptime-clock-pro-language-picker.png`
 
 ### Added
 
@@ -26,6 +29,7 @@ Release assets:
 
 - Language picker now stays open after selecting a language and closes only through its `X` button or context close.
 - Setup panel and language picker use solid panel backgrounds for readability while testing longer translated strings.
+- Removed an internal author-metadata guidance sentence from the packaged skin README.
 
 ## 0.5.1 Stable Beta - 2026-05-08
 
