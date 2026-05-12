@@ -54,7 +54,7 @@ README preview:
 
 - Language picker now stays open after selecting a language and closes only through its `X` button or context close.
 - Setup panel and language picker use solid panel backgrounds for readability while testing longer translated strings.
-- Removed an internal author-metadata guidance sentence from the packaged skin README.
+- Removed an internal metadata guidance sentence from the packaged skin README.
 
 ## 0.5.1 Stable Beta - 2026-05-08
 
@@ -115,7 +115,7 @@ Release asset:
 - Added custom painterly weather scene images for clear, clear-night, partly-cloudy, partly-cloudy-night, cloudy, cloudy-night, drizzle, rain, showers, heavy-rain, storm, hail, snow, fog, ice, and windy states.
 - Added three layout presets: Cinematic, Weather, and Compact.
 - Added optional text-only uptime words module that can be toggled separately.
-- Added PetersMinistry metadata and MIT license alignment across loadable pieces.
+- Added metadata and MIT license alignment across loadable pieces.
 
 ### Changed
 
