@@ -25,6 +25,7 @@ Release asset:
 - The main time meter now keeps the same WindSong clock styling while reading the selected time format from settings.
 - The lowercase `am` / `pm` marker is styled inline at the end of the time string so spacing stays consistent across layouts and display environments.
 - The old separate `am` / `pm` meter is hidden; 24-hour mode removes the marker through the selected time format.
+- The Open-Meteo weather feed now uses the provider's plain HTTP endpoint so Rainmeter can still load weather on systems where Windows Schannel HTTPS requests fail.
 
 ### Notes
 
