@@ -4,7 +4,15 @@ This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.6.1`.
+Future beta work will continue here after `0.6.2`.
+
+## 0.6.2 Stable Beta - 2026-05-15
+
+### Fixed
+- Added compatibility cleanup for retired `System` and `Weather` configs so upgraded installs do not keep restoring removed skins and filling Rainmeter logs.
+
+### Package
+- `Uptime-Clock-Pro_0.6.2-stable-beta.rmskin`
 
 ## 0.6.1 Stable Beta - 2026-05-12
 

@@ -44,7 +44,7 @@ UptimeClockPro\Control\Launcher.ini
 
 ## Version
 
-Current build: `0.6.1`
+Current build: `0.6.2`
 
 Beta build history is maintained in the project root changelog.
 
