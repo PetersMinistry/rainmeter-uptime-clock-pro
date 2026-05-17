@@ -78,7 +78,6 @@ UptimeClockPro\Uptime\Words.ini
 - The active font stack uses WindSong for the clock and Segoe UI Semilight for compact Rainmeter UI text.
 - Bundled OFL fonts in `@Resources\Fonts` are included as visual alternates and for future design work.
 - The skin intentionally does not force Rainmeter layer, position, or always-on-top settings.
-- Older separate uptime, pulse, and standalone weather panels were removed from the core product direction because they made this feel like a dashboard instead of an evolved clock.
 
 ## Status
 
