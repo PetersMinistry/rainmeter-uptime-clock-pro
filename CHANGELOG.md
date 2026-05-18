@@ -4,7 +4,12 @@ This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.6.2`.
+Future beta work will continue here after `0.6.3`.
+
+## 0.6.3 Stable Beta - 2026-05-18
+
+### Fixed
+- Removed retired `System` and `Weather` compatibility configs and their startup cleanup calls so current Rainmeter versions no longer log inactive-config warnings during normal refresh.
 
 ## 0.6.2 Stable Beta - 2026-05-15
 
