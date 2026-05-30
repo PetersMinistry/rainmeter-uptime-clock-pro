@@ -16,6 +16,7 @@ Current languages:
 - `it.inc` - Italian
 - `fr.inc` - French
 - `de.inc` - German
+- `pt-br.inc` - Portuguese (Brazil)
 
 ## How It Works
 
@@ -87,6 +88,7 @@ LangSpanishName
 LangItalianName
 LangFrenchName
 LangGermanName
+LangPortugueseBrazilianName
 LangLayoutExtras
 LangLayoutCinematic
 LangLayoutWeather
