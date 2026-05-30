@@ -1,10 +1,17 @@
-# Beta Build Changelog
+﻿# Beta Build Changelog
 
 This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.6.3`.
+Future beta work will continue here after `0.6.4`.
+
+## 0.6.4 Stable Beta - 2026-05-29
+
+### Added
+- Added Brazilian Portuguese (`pt-br.inc`) translation containing complete translations for the entire layout suite.
+- Fully integrated Portuguese (Brazil) into the Language Picker (`Picker.ini`) as Language ID `7`.
+- Added the translated language name `LangPortugueseBrazilianName` across all existing language dictionaries (`de.inc`, `en.inc`, `es.inc`, `fr.inc`, `it.inc`, `ru.inc`) for consistent picker naming.
 
 ## 0.6.3 Stable Beta - 2026-05-18
 
@@ -153,4 +160,5 @@ Release asset:
 - This `0.4.1-beta` checkpoint was superseded by the published `0.5.0` stable beta.
 - City/postal/ZIP lookup was still future work at this checkpoint; users entered decimal coordinates.
 - Weather setup copy and meridiem spacing were still being tuned at this checkpoint.
+
 
