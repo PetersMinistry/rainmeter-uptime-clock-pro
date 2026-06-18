@@ -26,7 +26,7 @@ This is a stable beta Rainmeter release. The core clock/weather experience is re
 
 Get the current stable beta from the GitHub Releases page:
 
-[Uptime Clock Pro 0.6.4 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.6.4-beta.1)
+[Uptime Clock Pro 0.6.5 Stable Beta](https://github.com/PetersMinistry/rainmeter-uptime-clock-pro/releases/tag/v0.6.5-beta.1)
 
 ## Skin Layout
 
@@ -88,7 +88,7 @@ Beta build history is tracked in `CHANGELOG.md`.
 
 ## Version
 
-Current build: `0.6.3`
+Current build: `0.6.5`
 
 Released under the MIT License (`LICENSE.md`). Bundled fonts are licensed separately under the SIL Open Font License and include their license files.
 

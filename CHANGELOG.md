@@ -4,7 +4,12 @@ This file tracks Uptime Clock Pro beta release progress.
 
 ## Unreleased Beta
 
-Future beta work will continue here after `0.6.4`.
+Future beta work will continue here after `0.6.5`.
+
+## 0.6.5 Stable Beta - 2026-06-18
+
+### Fixed
+- Eliminated weather scene image blinking in `Clock\\Anchor.ini` by consolidating scene selection into a single `MeasureSceneSelector` + `MeasureScenePath` pair. Previously, multiple overlapping `WeatherLogic` Calc measures with `IfConditionMode=1` were resetting and reapplying the background image every update tick, causing visible flicker.
 
 ## 0.6.4 Stable Beta - 2026-05-29
 
